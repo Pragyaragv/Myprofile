@@ -1,0 +1,120 @@
+Body{
+    margin:auto
+}
+a{
+    text-decoration: none;
+}
+header{
+    height:60px;
+    /*border:5px solid coral;*/
+    background-color: #3b2632;
+    }
+    #brand{
+        font-size: 30px;
+        color: white;
+        float: left;
+        margin-left: 2%;
+        margin-top: 1%;
+    }
+    #social{
+        float: right;
+    }
+    .slogo{
+        height: 50px;
+        width: 50px;
+    }
+#Search
+{
+    height: 400px;
+    /*border: 5px rebeccapurple dotted;*/
+    background-image: url('Image/piotr-szulawski-DCmUhk54F6M-unsplash.jpg');
+    background-repeat:no-repeat ;
+/*background-size: cover;*/
+     /*background-size: 100% 450px;*/
+     background-size: 100% 450px;
+     .logo{
+        height:150px;
+        width: 150px;
+        background-color:white;
+        border-radius:50%;
+     margin-left: 43%;
+        margin-top: 2%;
+        position: absolute;
+     }
+     
+.logo>span{
+    margin-left: 25%;
+    margin-top: 15%;
+    position: absolute;
+    font-size: 90px;
+}
+#heading{
+    font-size: 40px;
+color:#2c1c1c;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 30%;
+    margin-top: 19%;
+    position: absolute;
+    
+}
+.dropdown{
+    height: 100%;
+    width: 100%;
+    /*border: 2px solid #2c1c1c ;*/
+    margin-left: 35%;
+    margin-top: 24%;
+    position: absolute;
+}
+
+select{
+    height: 35px;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+    
+}
+#restSelect{
+    width: 59%;
+}
+}
+
+#QuickSearch
+{
+   /* height: 600px;*/
+   /* border: 10px royalblue double;*/
+   width: 80%;
+   margin-left: 10%;
+   margin-top: 10%;
+   margin-bottom: 5%;
+   display: inline-block;
+    
+
+
+    .quickheading{
+        color: #3b2632;
+        font-size: 30px;
+        font-weight: bold;
+        display: block;
+        
+    }
+    .quicksubheading{
+        color:gray;
+        font-size:20px;
+       line-height: 2%;
+    
+    }
+    .tilecontainer{
+        height: 180px;
+        width: 30%;
+        margin-left: 2%;
+        margin-top: 2%;
+        border: 2px solid #2c1c1c;
+        float: left;
+    }
+}
+
+footer{
+    height:60px;
+    border: 5px groove palevioletred;
+}
